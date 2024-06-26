@@ -8,7 +8,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Passed' // Just for demonstration; you can remove this line
-                git 'https://github.com/Monish247/library-management-system.git',branch: 'main'
+                // git 'https://github.com/Monish247/library-management-system.git',branch: 'main'
             }
         }
         stage('Frontend build and test') {
