@@ -1,4 +1,4 @@
-pipeline { hi
+pipeline { 
     agent none
     environment {
         FRONTEND_DIR = 'lms-frontend'
