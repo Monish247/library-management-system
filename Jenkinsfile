@@ -1,8 +1,8 @@
 stages {
     stage('Checkout') {
         steps {
-            echo 'Passed' // Just for demonstration; you can remove this line
-            git 'https://github.com/Monish247/library-management-system.git', branch: 'main'
+            echo 'Passed' 
+            // git 'https://github.com/Monish247/library-management-system.git', branch: 'main'
         }
     }
     stage('Backend build and test') {
