@@ -18,6 +18,7 @@ pipeline {
             steps {
                 dir("${FRONTEND_DIR}") {
                     sh 'npm install'
+                    sh 'sudo chown -R 129:138 "/.npm" '
                     sh 'npm run build --prod'
                 }
             }
